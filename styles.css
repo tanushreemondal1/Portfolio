@@ -1,0 +1,131 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+
+}
+
+body {
+  background: black; 
+  color:lavender;  
+    
+}
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+  padding: 20px 10%;
+  z-index: 100;
+  background: transparent;
+}
+
+.logo{
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  color:lavender;
+
+}
+
+.navbar a{
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 25px;
+  color:lavender;
+  transition: .5s;
+
+}
+
+.navbar a:hover, 
+.navbar .active {
+  color: #0ef;
+}
+
+.home{
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 0 10%;
+  justify-content: space-between;
+}
+
+.home-content{
+  max-width: 600px;
+}
+
+.home-content h1 {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.home-content h3 {
+  font-size: 32px;
+  font-weight: 600;
+  color: rgb(95, 95, 230);
+}
+
+.home-img img {
+  max-width: 380px;
+  margin-top: 50px;
+  border-radius: 50%;
+  border: 2px solid #0ef; 
+}
+
+.social-media {
+  position: absolute;
+  bottom: 200px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.social-media a {
+  display: inline-flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #0ef; 
+  border-radius: 50%;
+  font-size: 20px;
+  color: #0ef;
+  text-decoration: none;
+  transition: .5s ease;
+}
+
+.social-media a:hover {
+  background: #0ef;
+  color: #000;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #0ef;
+  border-radius: 40px;
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
