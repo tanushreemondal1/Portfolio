@@ -1,6 +1,6 @@
 # Tanushree Mondal - Software Developer Portfolio
 
-A modern, responsive, and professional portfolio website showcasing my skills, experience, and projects as a software developer.
+A modern, responsive, and professional portfolio website showcasing my skills, experience, and projects.
 
 ## 🌟 Features
 
