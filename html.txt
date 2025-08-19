@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+    
+
+<body>
+
+        <header class="header">
+            <a href="#" class="logo">Portfolio</a>
+                <nav class="navbar">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#aboutme">About Me</a>           
+                    <a href="#projects">Projects</a>                 
+                    <a href="#contact">Contact</a>
+                </nav>   
+        </header>
+
+        <!--Home Content Part-->
+
+        <section class="home">
+            <div class="home-content">
+                <h1>Hi, I'm Tanushree Mondal.</h1>
+                <h3>I am a MCA student. </h3>
+
+                <a href="https://tinyurl.com/resumetanushree" class="btn">Download CV</a>
+      
+                <div class="social-media">
+                    <a href="mailto: tanushreemondal021@email.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/tanushreemondal1/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/tanushreemondal1"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/tanushree.mondal.11"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/tanu___shree__/"><i class="fa-brands fa-instagram"></i></a>
+                
+                </div>
+              
+            </div>
+
+            <div class="home-img">
+                <img src="me.jpg" alt="">
+            </div>
+        </section>
+       
+        
+        <!--About Me Part-->
+
+         <section id="aboutme">
+           
+                <div class="aboutme-content">
+                    <h2>About Me</h2>
+
+                    <div class="details">  
+                        <p>My name is Tanushree Mondal. I have completed my MCA and BCA degree from Dr. B.C. Roy Engineering College. 
+                        I am passionate about learning new technologies and continuously improving my skills. 
+                        I'm eager to learn, adapt, and contribute to innovative software solutions.</p> 
+                       
+                    </div>
+
+                    <div class="skills">
+                        <h3>Skills:</h3>
+                        <div class="skills-icon">
+                                <i class="fab fa-html5" style="font-size: 48px; color: orange;"></i> <!-- HTML5 -->
+                                <i class="fab fa-css3-alt" style="font-size: 48px; color: blue;"></i> <!-- CSS3 -->
+                                <i class="fa-brands fa-bootstrap" style="font-size: 48px; color: green;"></i>
+                                <i class="fab fa-python" style="font-size: 48px; color: green;"></i> <!-- Python -->
+                                <i class="fa-brands fa-github" style="font-size: 48px; color: rgb(81, 54, 54);"></i> <!-- Git -->
+                                <i class="fab fa-visual-studio" style="font-size: 48px; color: #5C2D91;"></i> <!-- Larger VS icon with custom color --> 
+
+                        </div>
+                    </div>  
+                    
+                    <div class="internship">
+                        <h3>Internship:</h3>
+                        <h4>Company: - Pavartha Software Private Limited </h4>
+                        <h4>Duration: - August, 2021 to September, 2021</h4>
+                        <p>I have completed internship on studying Software Product Development Life Cycle using technologies such as but not limited to HTML5, 
+                        Cascading Style Sheet, Javascript, Visual Studio Code, Google Chrome, and others.</p>
+                    </p>
+                    </div>
+                </div> 
+           
+        </section>
+
+        
+        
+        <!--Projects Part-->
+
+        <section id="projects">
+            <div class="projects-content">
+                <h2>Projects</h2>
+                
+            </div>
+        </section>
+
+       
+       
+        <!--Contact Part-->
+
+       <section id="contact">
+        <div class="contact-content">
+            <h2>Contact</h2>
+            
+        </div>
+    </section>
+
+
+
+             
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--Education Part-->
+
+    <section id="education">
+        <div class="education-content">
+            <h2>Education</h2>
+
+            <div class="calendar">
+                <a href="#"><i class="fa-solid fa-calendar-days"></i>2019-2022</a>
+                <p>BCA(Computer Application) - MAKAUT <br> Dr. B.C. Roy Engineering College</p>
+                <a href="#"><i class="fa-solid fa-calendar-days"></i>2019-2022</a>
+                <p>MCA(Computer Application) - MAKAUT <br> Dr. B.C.Roy Engineer college</p>
+            </div>
+
+        </div>
+
+
+
+/*education Part*/
+
+#education {
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 0 10%;
+  justify-content: space-between;
+}
+

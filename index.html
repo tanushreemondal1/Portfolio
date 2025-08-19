@@ -3,54 +3,544 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Tanushree Mondal - Software Developer Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
 <body>
-    <header class="header">
-        <a href="#" class="logo">Portfolio</a>
-            <nav class="navbar">
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <a href="#" class="logo">Portfolio</a>
+                            <nav class="navbar">
                     <a href="#home" class="active">Home</a>
+                    <a href="#about">About</a>
                     <a href="#education">Education</a>
-                    <a href="#internship">Internship</a>            
-                    <a href="#Skills">Skills</a>
-                    <a href="#projects">Projects</a>                 
+                    <a href="#experience">Experience</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#achievements">Achievements</a>
                     <a href="#contact">Contact</a>
-            </nav>   
-    </header>
-
-    <section class="home">
-        <div class="home-content">
-            <h1>Hi, I'm Tanushree Mondal.</h1>
-            <h3>I am a MCA student. </h3>
-      
-            <div class="social-media">
-                <a href="mailto: tanushreemondal021@email.com"><i class="fa-solid fa-envelope"></i></a>
-                <a href="https://www.linkedin.com/in/tanushreemondal1/"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/tanushreemondal1"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.facebook.com/tanushree.mondal.11"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://www.instagram.com/tanu___shree__/"><i class="fa-brands fa-instagram"></i></a>
-                
+                </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
             </div>
-            <a href="https://tinyurl.com/resumetanushree" class="btn">Download CV</a>
-        </div>
+        </header>
 
-        <div class="home-img">
-            <img src="me.jpg" alt="">
-        </div>
-    </section>
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <div class="home-content">
+                <div class="home-text">
+                    <h1>Hi, I'm Tanushree Mondal</h1>
+                    <h2>Software Developer & MCA Graduate</h2>
+                    <p>Passionate about creating innovative software solutions and continuously learning new technologies. 
+                       I specialize in web development, machine learning, and software product development lifecycle.</p>
+                    
+                    <div class="cta-buttons">
+                        <a href="https://drive.google.com/file/d/11te9-qWnefmgbCgTZ3wooNrt5dntZ9YV/view?usp=sharing" class="btn btn-primary" target="_blank">
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i> Get In Touch
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="home-img">
+                    <img src="me.jpg" alt="Tanushree Mondal">
+                    <!--
+                    <div class="floating-card">
+                        <div class="card-content">
+                            <i class="fas fa-code"></i>
+                            <span>Software Developer</span>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
 
-  
-   
-    </section>
+            <div class="social-media">
+                <a href="mailto:tanushreemondal021@email.com" class="social-link" target="_blank">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/tanushreemondal1/" class="social-link" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/tanushreemondal1" class="social-link" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.facebook.com/tanushree.mondal.11" class="social-link" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/tanu___shree__/" class="social-link" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>Get to know me better</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who I Am</h3>
+                    <p>I am Tanushree Mondal, a passionate software developer with a strong foundation in computer applications. 
+                       I have completed my MCA and BCA degree from Dr. B.C. Roy Engineering College, where I developed a deep understanding 
+                       of software development principles and modern technologies.</p>
+                    
+                    <p>I am passionate about learning new technologies and continuously improving my skills. 
+                       I'm eager to learn, adapt, and contribute to innovative software solutions that make a difference.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>5+</h4>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat">
+                            <h4>10+</h4>
+                            <p>Technologies</p>
+                        </div>
+                        <div class="stat">
+                            <h4>4</h4>
+                            <p>Achievements</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <img src="Tanu.jpeg" alt="Education">
+                </div>
+            </div>
+        </section>
 
 
-   
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="section-header">
+                <h2>Education</h2>
+                <p>My academic background</p>
+            </div>
+            
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Master of Computer Applications (MCA)</h3>
+                        <h4>Dr. B.C. Roy Engineering College</h4>
+                        <p>Specialized in advanced computer applications and software development methodologies</p>
+                        <span class="year">July 2022 - June 2024</span>
+                        <span class="gpa">CGPA: 7.50/10</span>
+                    </div>
+                </div>
+                
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Bachelor of Computer Applications (BCA)</h3>
+                        <h4>Dr. B.C. Roy Engineering College</h4>
+                        <p>Foundation in computer science, programming, and software development fundamentals</p>
+                        <span class="year">June 2019 - June 2022</span>
+                        <span class="gpa">CGPA: 9.05/10</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+         <!-- Experience Section -->
+         <section id="experience" class="section">
+            <div class="section-header">
+                <h2>Experience</h2>
+                <p>My professional journey</p>
+            </div>
+            
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="experience-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Marketing Technology Intern</h3>
+                        <h4>Netesenz Inc, Baltimore, Maryland, United States</h4>
+                        <p>Selected as a Marketing Technology Intern for a 3-month program with a focus on gaining hands-on experience in tools and technologies like Python, Flask, PostgreSQL, AWS S3, OpenAI, and LangChain. This internship involves working on real-time marketing projects and exploring the use of technology in digital marketing strategies.</p>
+                        <span class="duration">June 2025 - Present</span>
+                    </div>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="experience-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Software Development Intern</h3>
+                        <h4>Pavartha Software Private Limited, Chennai</h4>
+                        <p>Completed internship on studying Software Product Development Life Cycle using technologies such as but not limited to HTML5, Cascading Style Sheet, Visual Studio Code, Google Chrome, and others.</p>
+                        <span class="duration">August 2021 - September 2021</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="section-header">
+                <h2>Projects</h2>
+                <p>Some of my recent work</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>LPG Gap Analyzer (Resume Verifier Tool)</h3>
+                        <p>This tool compares a resume with a job description and offers suggestions to minimize discrepancies. It enables users to upload job descriptions to a knowledge base and then match multiple resumes against them for analysis, aiming to improve resume-job alignment through useful recommendations.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>PostgreSQL</span>
+                            <span>AWS S3</span>
+                            <span>OpenAI</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="btn btn-small view-screenshot" data-project="lpg-gap-analyzer">View</button>
+                            <a href="https://github.com/tanushreemondal1" class="btn btn-small btn-outline" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Heart Disease Prediction Using Machine Learning</h3>
+                        <p>The project's goal is to predict the likelihood of a patient being diagnosed with cardiovascular heart disease. This prediction is based on various medical attributes, including gender, age, chest pain, and fasting sugar level.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Anaconda</span>
+                            <span>Machine Learning</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="btn btn-small view-screenshot" data-project="heart-disease-prediction">View</button>
+                            <a href="https://github.com/tanushreemondal1" class="btn btn-small btn-outline" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Passing Messages Using Steganography</h3>
+                        <p>This software provides a secure, user-friendly platform for embedding data, text, and files within JPEG and PNG images. It utilizes advanced encryption algorithms to ensure that the hidden information remains undetectable to unauthorized individuals.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>tkinter</span>
+                            <span>cryptography</span>
+                            <span>pillow</span>
+                            <span>stegano</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="btn btn-small view-screenshot" data-project="steganography">View</button>
+                            <a href="https://github.com/tanushreemondal1" class="btn btn-small btn-outline" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>homeEShop</h3>
+                        <p>An online grocery shopping platform offering home delivery, designed to provide a convenient shopping experience by avoiding crowded aisles and long cashier lines. The project aims to boost sales and profits, increase customer traffic, foster customer loyalty, and enhance department ratings.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap</span>
+                            <span>Ionic</span>
+                            <span>Angular</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="btn btn-small view-screenshot" data-project="homeeshop">View</button>
+                            <a href="https://github.com/tanushreemondal1" class="btn btn-small btn-outline" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Website Designing</h3>
+                        <p>The objective of this project is to create a general-purpose e-commerce store. It allows users to purchase a wide range of products, such as books, CDs, computers, mobile phones, electronic items, and home appliances, from the comfort of their home via the internet.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="btn btn-small view-screenshot" data-project="ecommerce">View</button>
+                            <a href="https://github.com/tanushreemondal1" class="btn btn-small btn-outline" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="section-header">
+                <h2>Skills & Technologies</h2>
+                <p>Technologies I work with</p>
+            </div>
+            
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>C</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Backend & Database</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-aws"></i>
+                            <span>AWS S3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-robot"></i>
+                            <span>OpenAI</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Tools & Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fa-brands fa-github"></i>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>DBeaver</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-visual-studio"></i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cursor"></i>
+                            <span>Cursor</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="section">
+            <div class="section-header">
+                <h2>Achievements & Certifications</h2>
+                <p>My professional accomplishments and learning milestones</p>
+            </div>
+            
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Learning Analytics Tools</h3>
+                        <h4>NPTEL Course Completion</h4>
+                        <p>Completed 12 weeks course on Learning Analytics Tools from NPTEL</p>
+                        <span class="achievement-date">July 2024 - October 2024</span>
+                    </div>
+                </div>
+                
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Introduction to HTML</h3>
+                        <h4>Sololearn Certification</h4>
+                        <p>Completed Introduction to HTML course on Sololearn platform</p>
+                        <span class="achievement-date">June 2024</span>
+                    </div>
+                </div>
+                
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Ethical Hacking and Cyber Security</h3>
+                        <h4>Participation Certificate</h4>
+                        <p>Participated in Ethical Hacking and Cyber Security program</p>
+                        <span class="achievement-date">February 2020</span>
+                    </div>
+                </div>
+                
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Developing Soft Skills and Personality</h3>
+                        <h4>NPTEL Course Completion</h4>
+                        <p>Completed 8 weeks course on Developing Soft Skills and Personality from NPTEL</p>
+                        <span class="achievement-date">August 2019 - October 2019</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         
-    
-   
-    
-   
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Let's work together</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>tanushreemondal021@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Bankura, West Bengal, India</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+91-6294021632</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2025 Tanushree Mondal. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/tanushreemondal1/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/tanushreemondal1"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:tanushreemondal021@email.com"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Project Screenshot Modal -->
+    <div id="screenshotModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" aria-label="Close">&times;</span>
+            <h2 id="modalTitle">Project Screenshot</h2>
+            <div class="modal-image-container">
+                <button class="modal-prev" aria-label="Previous image">&#10094;</button>
+                <img id="modalImage" src="" alt="Project Screenshot">
+                <button class="modal-next" aria-label="Next image">&#10095;</button>
+            </div>
+            <div class="modal-dots" id="modalDots"></div>
+            <div class="modal-description">
+                <p id="modalDescription"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
